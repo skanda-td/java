@@ -1,0 +1,3 @@
+Brute --> Better --> Optimal
+Read leetcode problem/VSCode once during notes prep
+Time & Space Complexity

@@ -1,0 +1,9 @@
+# IntelliJ / VS Code
+.idea/
+.vscode/
+out/
+*.iml
+
+# OS files
+Thumbs.db
+*.DS_Store
