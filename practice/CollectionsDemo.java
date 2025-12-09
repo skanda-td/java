@@ -119,4 +119,43 @@ public class CollectionsDemo {
         names.sort(Comparator.reverseOrder());
         System.out.println("Reverse sorted: " + names);
     }
+
+    // Expected output:
+
+    // List: [apple, banana, apple]
+    // List item: apple
+    // List item: banana
+    // List item: apple
+    // Sorted List: [apple, apple, banana]
+
+    // HashSet (no order): [red, blue]
+    // LinkedHashSet (insertion order): [red, blue, green]
+    // TreeSet (sorted): [apple, banana, cherry]
+
+    // HashMap: {year=2025, age=26}
+    // Key: year, Value: 2025
+    // Key: age, Value: 26
+    // LinkedHashMap: {b=2, a=1, c=3}
+    // TreeMap (sorted keys): {apple=5, banana=3, cherry=1}
+
+    // Queue: [task1, task2, task3]
+    // Removed: task1
+    // Queue after poll: [task2, task3]
+
+    // Stack: [10, 20, 30]
+    // Popped: 30
+    // Stack after pop: [10, 20]
+
+    // PriorityQueue: [10, 30, 20]
+    // Peek (smallest): 10
+    // Poll (remove smallest): 10
+    // After poll: [20, 30]
+
+    // Iterating using Iterator:
+    // apple
+    // apple
+    // banana
+
+    // Sorted by length: [Bob, Alice, Charlie]
+    // Reverse sorted: [Charlie, Bob, Alice]
 }
